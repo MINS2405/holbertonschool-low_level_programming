@@ -5,7 +5,7 @@
  *
  * Description: Prints a quote using the puts function
  * Return: Always 0 (Success)
- */#include <stdio.h>
+ */
 
 int main(void)
 {
