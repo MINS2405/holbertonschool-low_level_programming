@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point of the program
+ *
+ * Description: Prints a quote using the puts function
+ * Return: Always 0 (Success)
+ */#include <stdio.h>
+
 int main(void)
 {
     printf("Size of a char: %lu byte(s)\n", sizeof(char));
