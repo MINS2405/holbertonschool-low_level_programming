@@ -10,13 +10,13 @@
 
 int main(void)
 {
-	char alphabt;
+	char lettre = 'a';
 
-	while (alphabt <= 'Z')
+	while (lettre <= 'z')
 	{
-	if (alphabt <= 'a' alphabt <= 'z')
-	putchar(alphabt);
-	alphabt++;
+	if (lettre != 'a' && lettre != 'z')
+	putchar(lettre);
+	lettre++;
 	}
 	putchar('\n');
 
