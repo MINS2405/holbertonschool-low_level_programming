@@ -1,7 +1,7 @@
 #include <unistd.h>
 
 /**
- * main - Imprime les chiffres de 0 à 9 suivis d'un retour à la ligne
+ * main - Imprime chiffre de 0, 9 suivis d'un retour la ligne
  *
  * Return: Toujours 0 (Succès)
  */
