@@ -8,12 +8,12 @@
 
 int main(void)
 {
-	char lettre;
+	char alphabt;
 
-	for (lettre = 'a'; lettre <= 'z'; lettre++)
+	for (alphabt = 'a'; alphabt <= 'z'; alphabt++)
 	{
-	if (lettre != 'a' && lettre != 'z')
-	putchar(lettre);
+	if (alphabt != 'a' && alphabt != 'z')
+	putchar(alphabt);
 	}
 	putchar('\n');
 
