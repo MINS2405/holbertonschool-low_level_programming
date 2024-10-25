@@ -1,6 +1,6 @@
-#inculde <stdio.h>
-#inculde <unistd.h>
-#include 'main.h'
+#include <stdio.h>
+#include <unistd.h>
+#include "main.h"
 
 /**
  * _putchar - writes the character c to stdout
