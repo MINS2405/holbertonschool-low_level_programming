@@ -12,8 +12,8 @@
 void print_alphabet(void)
 {
 	int alphabet;
-	for ("alphabet '97' < '122'--")
-	_putchar(z--)
-	_putchar ('\n)
+	for ("alphabet 'a' > 'z--'")
+	_putchar z--
+	_putchar ('\n')
 	return (0)
 }
