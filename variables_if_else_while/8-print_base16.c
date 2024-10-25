@@ -2,11 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-
 /**
- * main - Imprime tous les nombres de base 16 en minuscules, suivis d'un retour à la ligne
+ * main - Entry point
  *
- * Return: Toujours 0 (Succès)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
