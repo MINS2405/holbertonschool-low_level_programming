@@ -3,10 +3,9 @@
 #include "main.h"
 
 /**
- * main - Entry point of the program
+ * print_alphabet - print alphabet
  *
- * Description: This program prints "_putchar" followed by a new line
- * Return: Always 0 (Success)
+ * Description: This program prints alphabet followed by a new line
  */
 
 void print_alphabet(void)
@@ -15,8 +14,7 @@ void print_alphabet(void)
 
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
-		_putchar(alphabet++);
+		_putchar(alphabet);
 	}
 	_putchar ('\n');
-	return (0);
 }
