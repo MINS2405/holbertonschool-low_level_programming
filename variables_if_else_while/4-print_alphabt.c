@@ -8,13 +8,12 @@
 
 int main(void)
 {
-	char lettre = 'a';
+	char lettre;
 
-	while (lettre <= 'z')
+	for (lettre = 'a'; lettre <= 'z'; lettre++)
 	{
 	if (lettre != 'a' && lettre != 'z')
 	putchar(lettre);
-	lettre++;
 	}
 	putchar('\n');
 
