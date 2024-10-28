@@ -10,7 +10,9 @@
 
 void more_numbers(void)
 {
-int numbers;
+int numbers, lecerveaudemina;
+for (lecerveaudemina = 0; lecerveaudemina <= 9; lecerveaudemina++)
+{
 for (numbers = 0; numbers <= 14; numbers++)
 {
 if (numbers >= 10)
@@ -20,4 +22,5 @@ _putchar((numbers / 10) + '0');
 _putchar((numbers % 10) + '0');
 }
 _putchar('\n');
+}
 }
