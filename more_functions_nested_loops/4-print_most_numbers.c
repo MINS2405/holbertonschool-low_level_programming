@@ -4,7 +4,7 @@
 /**
 * print_most_numbers - Prints numbers 0 from 9, excluding  2 and 4
 *
-* Descritpion :  Description: Prints all numbers except 2 and 4, without a new line at the end
+* Descritpion : Prints all number except 2 and 4 without a new line at the end
 */
 
 void print_most_numbers(void)
