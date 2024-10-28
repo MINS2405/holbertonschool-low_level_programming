@@ -2,10 +2,13 @@
 #include <stdio.h>
 
 /**
-* print_most_numbers - Prints numbers 0 from 14
+* more_numbers - Prints numbers from 0 to 14, ten times
 *
-* Descritpion : user _putchar three times the code
-* Return : void
+* Description: This function prints the numbers 0 to 14,
+* followed by a new line. It repeats this process 10 times.
+* It uses _putchar to print each digit.
+*
+* Return: void
 */
 
 void more_numbers(void)
