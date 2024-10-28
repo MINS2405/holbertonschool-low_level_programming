@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 /**
-* print_most_numbers - Prints numbers 0 from 9, Do not print 2 and 4
+* print_most_numbers - Prints numbers 0 from 9, excluding  2 and 4
 *
-* Descritpion : _putchar used the nombers
+* Descritpion :  Description: This function prints all single digit numbers
+* except 2 and 4, without a new line at the end
 */
 
 void print_most_numbers(void)
