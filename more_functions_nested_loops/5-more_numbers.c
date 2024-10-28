@@ -11,7 +11,7 @@
 void more_numbers(void)
 {
 int numbers;
-for (numbers = '0'; numbers <= '14'; numbers++)
+for (numbers = 0; numbers <= 14; numbers++)
 
 _putchar(numbers++);
 _putchar(numbers);
