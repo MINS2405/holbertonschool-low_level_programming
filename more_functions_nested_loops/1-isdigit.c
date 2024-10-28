@@ -2,12 +2,10 @@
 #include <stdio.h>
 
 /**
-* mult - multiply numbers
-* @a : variable for the first number
-* @b : variable for the seconde number
+* _isdigit - Cheks if a character is a number
+* @c: The character to check
 *
-* Descritpion : multiply variable a and variable b
-* Return: return 0
+* Return: 1 if c is a digit, 0 otherwise
 */
 
 int _isdigit(int c)
