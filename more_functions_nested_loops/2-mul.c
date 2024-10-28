@@ -13,5 +13,5 @@
 int mul(int a, int b)
 {
 int resultat = (a * b);
-return ('\n');
+return (resultat);
 }
