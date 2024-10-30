@@ -2,10 +2,7 @@
 
 /**
  * _puts - Prints a string followed by a new line to stdout
- * @str: Pointer to the string to be printed
- *
- * Description: This function takes a pointer to a null-terminated string
- * and prints each character of the st
+ * @str: The string to be printed
  */
 void _puts(char *str)
 {
