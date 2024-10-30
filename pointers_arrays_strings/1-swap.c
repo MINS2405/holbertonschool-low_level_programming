@@ -2,10 +2,12 @@
 #include <stdio.h>
 
 /**
- * user the prototypes: void swap_int to int *a, int *b
+ * swap_int - Swaps the values of two integers
+ * @a: Pointer to the first integer
+ * @b: Pointer to the second integer
  *
- * Description: function that swaps the values of two integers
- *
+ * Description: This function takes two integer pointers and swaps
+ * the values they point to.
  */
 void swap_int(int *a, int *b)
 {
