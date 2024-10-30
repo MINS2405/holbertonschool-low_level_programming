@@ -10,7 +10,7 @@
  * traverse the string.
  *
  * Return: The length of the string (number of characters)
- */ 
+ */
 
 int _strlen(char *s)
 {
