@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _strcpy - Copies the string pointed to by src to dest
@@ -18,7 +19,7 @@ dest[i] = src[i];
 i++;
 }
 
-dest[i] = '\0';  // Add the terminating null byte
+dest[i] = '\0';
 
 return dest;
 }
