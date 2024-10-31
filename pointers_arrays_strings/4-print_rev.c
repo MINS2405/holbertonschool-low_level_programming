@@ -2,13 +2,8 @@
 #include <stdio.h>
 
 /**
- * Function: print_rev
- * Prototype: void print_rev(char *s)
- *
- * Description: This function prints a given string in reverse order,
- * followed by a new line. It takes a single parameter
- *
- * Return: always
+ * print_rev - Prints a string in reverse, followed by a new line.
+ * @s: The string to be printed.
  */
 
 void print_rev(char *s)
