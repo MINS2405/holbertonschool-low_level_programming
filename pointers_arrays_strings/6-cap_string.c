@@ -2,11 +2,12 @@
 #include <stdio.h>
 
 /**
- * cap_string - Met en majuscule la première lettre de chaque mot d'une chaî
+ * cap_string - Met en majuscule la première lettre de chaque mot d'une chane
  * @str: La chaîne à modifier
- * Return: Un pointeur vers la chaîne modifiée
+ * Return: Un pointeur vers la chaîne modifi�
  */
 
+int is_separator(char c);
 char *cap_string(char *str)
 {
 int i = 0;
