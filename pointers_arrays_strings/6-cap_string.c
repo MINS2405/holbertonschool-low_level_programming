@@ -7,7 +7,7 @@
  * Return: Un pointeur vers la chaÃ®ne modifiÃ
  */
 
-char *cap_string(char *str)
+char *cap_string(char *str);
 int is_separator(char c);
 {
 int i = 0;
