@@ -19,7 +19,7 @@ if (capitalize_next && str[i] >= 'a' && str[i] <= 'z')
 str[i] -= 32;
 }
 
-capitalize_next = is_separator(str[i]);
+capitalize_next = is_separator (str[i]);
 i++;
 }
 return (str);
