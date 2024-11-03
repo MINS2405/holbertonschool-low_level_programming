@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- * string_toupper - Change toutes les lettres minuscules d'une chaîne en majuscules
- * @str: La chaîne à modifier
- *
- * Return: Un pointeur vers la chaîne modifiée
- */
+* string_toupper - Change toutes les lettres minuscules une chaîne en majuscle
+* @str: La chaîne à modifier
+*
+* Return: Un pointeur vers la chaîne modifiée
+*/
 
 
 char *string_toupper(char *str)
@@ -20,7 +20,6 @@ if (str[i] >= 'a' && str[i] <= 'z')
 str[i] = str[i] - 32;
 }
 i++;
-}
 
-return str;
+return (str);
 }
