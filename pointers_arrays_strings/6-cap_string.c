@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * cap_string - Met en majuscule la première lettre de chaque mot d'une chaîne
- * @str: La chaîne à modifier
+ * cap_string - Met en majuscule la première lettre de chaque mot d'une chaî
+ * @str: La chaîne à modifi
  * Return: Un pointeur vers la chaîne modifiée
  */
 
@@ -18,8 +18,11 @@ if (capitalize_next && str[i] >= 'a' && str[i] <= 'z')
 {
 str[i] -= 32;
 }
-
-capitalize_next = is_separator (str[i]);
+capitalize_next = (str[i] == ' ' || str[i] == '\t' || str[i] == '\n' ||
+str[i] == ',' || str[i] == ';' || str[i] == '.' ||
+str[i] == '!' || str[i] == '?' || str[i] == '"' ||
+str[i] == '(' || str[i] == ')' || str[i] == '{' ||
+str[i] == '}');
 i++;
 }
 return (str);
