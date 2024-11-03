@@ -2,20 +2,25 @@
 #include <stdio.h>
 
 /**
- * is_separator - Vérifie si un caractère est un séparateur de mots
- * @c: Le caractère à vérifier
- * Return: 1 si c'est un séparateur, 0 sinon
+ * cap_string - Met en majuscule la première lettre de chaque mot d'une chaî
+ * @str: La chaîne à modifier
+ * Return: Un pointeur vers la chaîne modifiée
  */
 
-int is_separator(char c)
+char *cap_string(char *str)
 {
-char separators[] = " \t\n,;.!?\"(){}";
-int i;
+int i = 0;
+int capitalize_next = 1;
 
-for (i = 0; separators[i] != '\0'; i++)
+while (str[i] != '\0')
 {
-if (c == separators[i])
-return (1);
+if (capitalize_next && str[i] >= 'a' && str[i] <= 'z')
+{
+str[i] -= 32;
 }
-return (0);
+
+capitalize_next = is_separator(str[i]);
+i++;
+}
+return (str);
 }
