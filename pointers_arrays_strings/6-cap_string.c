@@ -7,8 +7,8 @@
  * Return: Un pointeur vers la cha√Æne modifi√
  */
 
-char *cap_string(char *str);
 int is_separator(char c);
+char *cap_string(char *);
 {
 int i = 0;
 int capitalize_next = 1;
