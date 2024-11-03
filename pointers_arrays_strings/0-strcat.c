@@ -10,25 +10,21 @@
  * Return: A pointer to the resulting string dest
  */
 
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
-char *ptr = dest;
 
+int dest_len = 0;
+int i = 0;
 
-while (*ptr != '\0')
+while (dest[dest_len] != '\0')
 {
-ptr++;
+dest_len++;
 }
-
-
-while (*src != '\0')
+while (src[i] != '\0')
 {
-*ptr = *src;
-ptr++;
-src++;
+dest[dest_len + i] = src[i];
+i++;
 }
-
-*ptr = ('\0');
-
+dest[dest_len + i] = ('\0');
 return (dest);
 }
