@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * cap_string - Met en majuscule la première lettre de chaque mot d'une chane
- * @str: La chaîne à modifier
- * Return: Un pointeur vers la chaîne modifi�
+ * is_separator - Vérifie si un caractère est un séparateur de mots
+ * @c: Le caractère à vérifier
+ * Return: 1 si c'est un séparateur, 0 sinon
  */
 
 int is_separator(char c);
