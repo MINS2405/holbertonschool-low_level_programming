@@ -10,13 +10,12 @@ void print_chessboard(char (*a)[8])
 {
 int i, j;
 
-for (i = 0; i < 64; i++)
+for (i = 0; i < 8; i++)
 {
-_putchar((*a)[i]);
-if ((i + 1) % 8 == 0 && i != 63)
+for (j = 0; i < 8; j++)
 {
-_putchar('\n');
-}
+_putchar(a[i][j]);
 }
 _putchar('\n');
+}
 }
