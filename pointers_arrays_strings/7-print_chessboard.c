@@ -2,21 +2,21 @@
 #include <stdio.h>
 
 /**
- * print_chessboard - Prints the chessboard
- * @a: 2D array representing the chessboard
- *
- * Return: void
+ * print_chessboard - Affiche l'échiquier
+ * @a: Tableau 2D représentant l'échiquier
  */
+
 void print_chessboard(char (*a)[8])
 {
 int i, j;
 
-for (i = 0; i < 8; i++)
+for (i = 0; i < 64; i++)
 {
-for (j = 0; j < 8; j++)
+_putchar((*a)[i]);
+if ((i + 1) % 8 == 0 && i != 63)
 {
-_putchar(a[i][j]);
-}
 _putchar('\n');
 }
+}
+_putchar('\n');
 }
