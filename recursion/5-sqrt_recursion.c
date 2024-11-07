@@ -16,3 +16,17 @@ if (i * i == n)
 return (i);
 return (_sqrt_helper(n, i + 1));
 }
+
+
+/**
+* _sqrt_recursion - Retourne la racine carrée naturelle d'un nombre
+* @n: Le nombre dont on cherche la racine carrée
+*
+* Return: La racine carrée naturelle si elle existe, -1 sinon
+*/
+int _sqrt_recursion(int n)
+{
+if (n < 0)
+return (-1);
+return (_sqrt_helper(n, 0));
+}
