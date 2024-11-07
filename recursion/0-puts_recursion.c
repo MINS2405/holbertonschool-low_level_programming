@@ -5,13 +5,13 @@
 * _puts_recursion - Imprime chaîne suivie d'une nouvelle lignerécursivemen
 * @s: La chaîne à imprimer
 */
+
 void _puts_recursion(char *s)
 {
 
 if (*s == '\0')
 {
 putchar('\n');
-return('\0');
 }
 putchar(*s);
 
