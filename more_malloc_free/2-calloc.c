@@ -1,5 +1,7 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 /**
  * _calloc - Alloue de la mémoire pour un tableau et l'initialise à zéro
