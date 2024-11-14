@@ -1,8 +1,9 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- * malloc_checked - Alloue de la mémoire en utilisant malloc
+ * malloc_checked - Alloue de la mémoire en utilisant mallo
  * @b: Nombre d'octets à allouer
  *
  * Return: Un pointeur vers la mémoire allouée
